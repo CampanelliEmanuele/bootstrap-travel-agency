@@ -17,7 +17,43 @@
 <body>
 
     <header>
-
+        <div class="container-fluid bg-success-subtle">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Generic link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -83,8 +119,11 @@
                 </div>
             </div>
 
+            <hr class="mt-4">
+
             <!-- ROW 3 -->
-            <form class="row g-2 py-5 px-5 mx-5">
+            <form class="row g-2 py-3 px-5 mx-5">
+                <h3>Share infos</h3>
                 <!-- First name -->
                 <div class="col-md-6">
                     <label for="firstNameInput" class="form-label">First name</label>
@@ -123,14 +162,17 @@
                 <div class="col-12 py-2">
                     <button type="submit" class="btn btn-primary">Send</button>
                 </div>
-
             </form>
 
         </div>
     </main>
 
-    <footer>
-
+    <footer class="bg-primary-subtle">
+        <div class="container-fluid">
+            <div class="text-center py-4">
+                <h5>I am the footer here</h5>
+            </div>
+        </div>
     </footer>
 
     <!-- BOOTSTRAP 5.3.2 -->
